@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+Name: Vishal Thumar
+Student ID: 000765604
+This is the index page which display the formate or visualization of the game.
+-->
+<html>
+    <head>
+        <title>Beat That</title>
+        <script src='new.js'></script>
+        <link rel = "stylesheet" type = "text/css" href = "beatThat.css" >
+    </head>
+    <body onload="reset();">
+        <h1>Beat That</h1>
+        <h3 id='round'>Round-</h3><h3 id='rounds'>1</h3>
+        <div id='die1' class='dice'>0</div>
+        <div id='die2' class='dice'>0</div>
+        <button onclick="roll();">Roll dice</button>
+        <button onclick="reset();">Reset</button>
+        <h3 id='turn'>It's turn for </h3><h3 id='player'></h3>
+        <h2 class='title'>Score of Player-1 : </h2><h2 id='score1' class='score'></h2>
+        <h2 class='title'>Score of Player-2 : </h2><h2 id='score2' class='score'></h2>
+        <h2 id='lead'></h2>
+        <h1 id='winner'></h1>
+        <a href='rules.html'>How to play!</a>
+    </body>
+</html>

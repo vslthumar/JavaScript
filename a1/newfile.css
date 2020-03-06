@@ -1,0 +1,63 @@
+/*
+Name: Vishal Thumar
+ID: 000765604
+Date: 09/20/2018
+*/
+body {
+    background-color: lightgrey;
+}
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 30pt;
+}
+input[type=number] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    background-color: black;
+    color: white;
+}
+form{
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-weight: bolder;
+    font-size: 20pt;
+}
+select{
+    background-color: lightgray;
+    color: red;
+    font-size: 12pt;
+    font-weight: bold;
+}
+button{
+    background-color: red;
+    color: white;
+    font-size: 15pt;
+    border: 3px solid black; 
+}
+p{
+    text-align: center;
+    font-size: 50pt;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 5px solid red;
+}
+table{
+    background-color: white;
+    text-align: center;
+    color: black;
+    border: 2px solid black;
+    margin-left: 45%;
+    font-size: 20pt;
+
+}
+th{
+    background-color: red;
+    color: white;
+}

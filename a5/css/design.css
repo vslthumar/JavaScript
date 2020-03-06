@@ -1,0 +1,27 @@
+/*
+* 
+ * Name: Vishal Thumar
+ * Student ID: 000765604
+ * This is the css design page to make quiz looks good. 
+*/
+
+#display{
+    border:black 2px solid; 
+    padding:10px 10px 10px 10px;
+    background-color:lightgray;
+    width:30%;
+    font-size: 20px;
+}
+#status{
+    border:black 2px solid; 
+    padding:10px 10px 10px 10px;
+    background-color:darkgrey;
+    width:30%;
+    font-size:25px;
+    text-align: center;
+}
+button{
+    border:red 1px solid;
+    font-size: 15px;
+    background-color: white;
+}

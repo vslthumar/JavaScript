@@ -1,0 +1,64 @@
+ <!---
+Name: Vishal Thumar
+ID: 000765604
+Date: 10/05/2018
+--->
+
+<!-- This is the display page where user can input numbers in text box and click the button for output, 
+by taking the program to php page for the output. 
+-->
+
+<html>
+    <head>
+        <title>Lab-2</title>
+        <style>
+            body{
+                background-color: darkgray;
+            }
+            form{
+                background-color: lightgray;
+            }
+            div{
+                text-align: center;
+            }
+            input[type="text"] {
+                width: 500px;
+
+                margin-bottom: 15px;
+                text-align: center;
+            }
+            h1,h2{
+                text-align: center;
+
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <!--link to go to another page-->
+        <form action="validation.php" method="GET">
+            <h1>  Welcome to the store..!! </h1>
+            <h2> Fill out the details </h2>
+            <div >
+                <!-- input form-->
+
+                <input type = "text" name="name" placeholder="Store Name" ><br>
+
+                <input type = "text" name="address" placeholder="Street Address"><br>
+
+                <input type = "text" name="city" placeholder="City Name"><br>
+
+                <input type = "text" name="postal" placeholder="Postal code"><br>
+                <br>
+
+                <input type = "submit" name="submit" value="Submit">
+
+            </div>
+        </form>
+
+
+
+
+    </body>
+</html>
